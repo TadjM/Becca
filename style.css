@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
 
+
+@media all {
+
 body{
     background-image: url("");
     font-family: 'Open Sans Condensed', sans-serif;
@@ -14,7 +17,7 @@ img {
 
 .main {
     display: grid;
-    grid-gap: 50px;
+    grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     margin: 50px;
 }
@@ -43,4 +46,5 @@ p {
     height:auto;
     display:block;
     z-index:999;
+}
 }
